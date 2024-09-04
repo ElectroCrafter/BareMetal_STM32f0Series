@@ -1,0 +1,37 @@
+    //Declare a pointer with another data type
+    // uint16_t *ptr16t;
+
+    //this malloc create size of memory reference to struct in this case
+    //uint16t data type size
+    // ptr16t = malloc (sizeof(uint16_t));
+
+    //--Insert a node using manual method (adding nodes each variable)
+    // head = createNode(12);
+    // struct node* second = createNode(2);
+    // struct node* third = createNode(3);
+
+    // //next each node
+    // head->next=second;
+    // second->next=third;
+    // insAfterTail(head,100);
+    // insAfterTail(head,200);
+
+    /*--Note--
+    -head-> data        : Value
+    -head-> next        : next addres node
+    -head               : address current node 
+    */
+
+    // puts("Head Nodes");
+    // printf("data value:%d\taddress:%d\tnextAddress:%d\n",head->data,&head-1,&head->next-1);
+    // puts("2 Nodes");
+    // printf("data value:%d\taddress:%d\tnextAddress:%d\n",head->data,head,&head->next);
+    // puts("3 Nodes");
+    // printf("data value:%d\taddress:%d\tnextAddress:%d\n",head->data-2,head-1,head);
+    // puts("4 Nodes");
+    // printf("data value:%d\taddress:%d\tnextAddress:%d\n",head->data,head,head->next);
+    
+   
+    // free(head);
+    // free(second);
+    // free(third);

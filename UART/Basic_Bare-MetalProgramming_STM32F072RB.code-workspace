@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../../../Youtube/STM32Series/PlatformIO/Basic_Bare-MetalProgramming_STM32F072RB"
+		},
+		{
+			"name": "Peripherals-NucleoF072RB",
+			"path": "../../../../Youtube/STM32Series/PlatformIO/Peripherals-NucleoF072RB"
+		}
+	],
+	"settings": {}
+}
